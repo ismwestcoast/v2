@@ -1,5 +1,5 @@
 ---
-title: Enrolment Dates
+title: Enrol Dates
 layout: info
 date: 2016-06-01
 img: roundicons.png
