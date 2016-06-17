@@ -1,5 +1,5 @@
 url: https://ismwestcoast.github.io
-baseurl: https://ismwestcoast.github.io/
+# baseurl: localhost:4000/
 
 # Site settings
 title: ISM Westcoast
@@ -11,7 +11,7 @@ description: "Music Education for Children of All Ages"
 people:
 - name: Kay Garland
   pic: 1
-  position: Lead Designer
+  position: Director
   social:
     - title: twitter
       url: #

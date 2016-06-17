@@ -4,6 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+html {
+        position: relative;
+        min-height: 100%;
+        display: block
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -230,7 +236,6 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
-
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -260,6 +265,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
 }
 
 header {
@@ -718,6 +724,12 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+div.footerinfopage {
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%;
+}
 footer {
     padding: 25px 0;
     text-align: center;
