@@ -1,6 +1,6 @@
 ---
-title: Enrol Dates
-layout: info
+title: New Enrolments
+layout: enrol
 date: 2016-06-01
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
@@ -11,7 +11,7 @@ category: info
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 permalink: /info/enrolmentdates.html
 ---
-# Class Placements
+# Class Placements 2016
 
 ## Beeboppers
 

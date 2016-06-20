@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+    <body>
+        {% include navshrink.html %}
+        <div class="row">
+                <div class="container">
+                        <div class="col-md-5 col-md-offset-1">
+                                {{ content }}
+                        </div>
+                        <div class="col-md-5">
+                                {% include enrolmentform.html %}
+                        </div>
+                </div>
+        </div>
+        {% include js.html %}
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+    <body>
+        {% include navshrink.html %}
+        <div class="">
+                <div class="row">
+                        <div class="container">
+                                {{ content }}
+                        </div>
+                </div>
+                {% for post in site.posts %}
+                        {% if post.categories contains "item" %}
+                                <div class="row">
+                                        <div class="container">
+                                                {{ post.content | markdownify}}
+                                        </div>
+                                </div>
+                        {% endif %}
+                {% endfor}
+        </div>
+        {% include js.html %}
+    </body>
+</html>
