@@ -2,65 +2,81 @@
 
 <form>
   <fieldset class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-    <small class="text-muted">We'll never share your email with anyone else.</small>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleSelect1">Example select</label>
-    <select class="form-control" id="exampleSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleSelect2">Example multiple select</label>
-    <select multiple class="form-control" id="exampleSelect2">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleTextarea">Example textarea</label>
-    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-  </fieldset>
-  <fieldset class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" class="form-control-file" id="exampleInputFile">
-    <small class="text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
-  </fieldset>
-  <div class="radio">
+    <h2>Student Information</h2>
+    <label for="student_first_name">Student's First Name</label>
+    <input type="student_first_name" class="form-control" id="student_first_name" placeholder="Enter student's first name">
+    <label for="student_surname">Student's Surname</label>
+    <input type="student_surname" class="form-control" id="student_surname" placeholder="Enter student's surname">
     <label>
-      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-      Option one is this and that&mdash;be sure to include why it's great
+      Gender
+      <div class="radio">
+        <label>
+          <input type="radio" name="student_gender" id="male" value="male" checked>
+          Male
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="student_gender" id="female" value="female">
+          Female
+        </label>
+      </div>
     </label>
-  </div>
-  <div class="radio">
+  </fieldset>
+  <fieldset class="form-group">
+    <h2>Parent Information</h2>
+    <label for="parent_first_name">Parent's First Name</label>
+    <input type="parent_first_name" class="form-control" id="parent_first_name" placeholder="Enter parent's first name">
+    <label for="parent_surname">Parent's Surname</label>
+    <input type="parent_surname" class="form-control" id="parent_surname" placeholder="Enter parent's surname">
+    <label for="address">Address</label>
+    <textarea class="form-control" id="address" rows="3" placeholder="123 Street Way"></textarea>
+    <label for="home_phone">Home Phone</label>
+    <input type="home_phone" class="form-control" id="home_phone" placeholder="Home Phone">
+    <label for="mobile_phone">Mobile Phone</label>
+    <input type="mobile_phone" class="form-control" id="mobile_phone" placeholder="Mobile Phone">
+    <label for="email_address">Email Address</label>
+    <input type="email_address" class="form-control" id="email_address" placeholder="Email Address">
+  </fieldset>
+  <fieldset class="form-group">
+    <h2>Enrolment Info</h2>
     <label>
-      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-      Option two can be something else and selecting it will deselect option one
+      Course
+      <div class="checkbox">
+        <label><input type="checkbox" value="">Jitterbugs</label>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" value="">Beeboppers</label>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" value="">Pianorama Junior - Kindy</label>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" value="">Pianorama Junior - PP/Year1</label>
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" value="">Pianorama Primary</label>
+      </div>
     </label>
-  </div>
-  <div class="radio disabled">
+    <br>
     <label>
-      <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-      Option three is disabled
+      Location
+      <div class="radio">
+        <label>
+          <input type="radio" name="location" id="carine_glades" value="location">
+          Carine Glades
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="location" id="carine_glades" value="location">
+          Wembley
+        </label>
+      </div>
     </label>
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Check me out
-    </label>
-  </div>
+    <br>
+    <label for="preferred_day">Preferred Day</label>
+    <input type="preferred_day" class="form-control" id="preferred_day" placeholder="Monday, Tuesday...">
+  </fieldset>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
