@@ -1,0 +1,45 @@
+<h2>Order Form</h2>
+
+<form action="https://formspree.io/jtnguyen236@gmail.com" method="POST">
+  <fieldset class="form-group">
+    <h2>Information</h2>
+    <label for="parent_name">Parent's Name</label>
+    <input type="parent_name" class="form-control" id="parent_name" placeholder="Parent's Name">
+    <label for="student_name">Student's Name</label>
+    <input type="student_name" class="form-control" id="student_name" placeholder="Student's Name">
+    <label for="email_address">Email Address</label>
+    <input type="email_address" class="form-control" id="email_address" placeholder="Email Address">
+    <label for="mobile_phone">Mobile Phone</label>
+    <input type="mobile_phone" class="form-control" id="mobile_phone" placeholder="Mobile Phone">
+    <div class="row">
+      <div class="col-sm-6">
+        <label for="school">School</label>
+        <input type="school" class="form-control" id="school" placeholder="Carine/Wembley">
+      </div>
+      <div class="col-sm-6">
+        <label for="class">Class</label>
+        <input type="class" class="form-control" id="class" placeholder="Monday, 9.30am">
+      </div>
+    </div>
+  </fieldset>
+  <fieldset class="form-group">
+    <h2>Product Info</h2>
+    <select class="form-control" id="product">
+      <option>Select...</option>
+      <option>Magnet Board</option>
+      <option>Flash Cards</option>
+      <option>Music Bags</option>
+    </select>
+    <div class="row">
+      <div class="col-sm-6">
+        <label for="quantity">Quantity</label>
+        <input type="quantity" class="form-control" id="quantity" placeholder="Quantity of the product">
+      </div>
+      <div class="col-sm-6">
+        <label for="colour">Colour</label>
+        <input type="colour" class="form-control" id="colour" placeholder="Colour of the product">
+      </div>
+    </div>
+  </fieldset>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
