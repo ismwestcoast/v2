@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-    <body>
-        {% include navshrink.html %}
-        <div class="">
-                <div class="row">
-                        <div class="container">
-                                {{ content }}
-                        </div>
-                </div>
-                {% for post in site.posts %}
-                        {% if post.categories contains "item" %}
-                                <div class="row">
-                                        <div class="container">
-                                                {{ post.content | markdownify}}
-                                        </div>
-                                </div>
-                        {% endif %}
-                {% endfor}
+  <body>
+    {% include navshrink.html %}
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          {{ content }}
         </div>
-        {% include js.html %}
-    </body>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        {% for post in site.posts %}
+          {% if post.categories contains "item" %}
+            <div class="col-sm-5 col-sm-offset-1 img-centered">
+              {{ post.content | markdownify}}
+            </div>
+            <div class="col-sm-5">
+                    {% include orderform.html %}
+            </div>
+          {% endif %}
+        {% endfor}
+      </div>
+    </div>
+    {% include js.html %}
+  </body>
 </html>
