@@ -1,48 +1,50 @@
 <!-- Team Section -->
-    <section class="w-80-ns center bg-yellow br4-ns">
-        <h2 class="tc f-subheadline">Our Amazing Team</h2>
-        <h3 class="tc">Lorem ipsum dolor sit amet consectetur.</h3>
-        <div class="fl w-100 cf">
-            <h1 class="tc">All Branches</h1>
-            {% for member in site.people %}
-                {% if member.branch contains "all" %}
-                    <div class="fl w-100 pa4 w5">
-                        <div class="h5 w5 w-100">
-                            <img class="db h5 w5 br-100 center" src="img/team/{{ member.pic }}.jpg" alt="{{ member.name }}">
-                            <h5 class="tc f3 ma0">{{ member.name }}</h5>
-                            <p class="tc ma0">{{ member.position }}</p>
+    <div>
+        <div class="w-80-ns center bg-yellow br4-ns">
+            <h2 class="tc f-subheadline">Our Amazing Team</h2>
+            <h3 class="tc">Lorem ipsum dolor sit amet consectetur.</h3>
+            <div class="fl w-100 cf">
+                <h1 class="f-subheadline tc">All Branches</h1>
+                {% for member in site.people %}
+                    {% if member.branch contains "all" %}
+                        <div class="fl w-100 pa4 w5">
+                            <div class="h5 w5 w-100">
+                                <img class="ba bw2 db h5 w5 br-100 center" src="img/team/{{ member.pic }}.jpg" alt="{{ member.name }}">
+                                <h5 class="tc f4 ma0 h2">{{ member.name }}</h5>
+                                <p class="tc tracked ttu ma0">{{ member.position }}</p>
+                            </div>
                         </div>
-                    </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-        <div class="fl w-100 cf">
-            <h1 class="tc">Wembley</h1>
-            {% for member in site.people %}
-                {% if member.branch contains "wembley" %}
-                    <div class="fl w-25-l w-50-m w-100 pa4">
-                        <div>
-                            <img class="db h4-ns w4-ns h5 w5 br-100 center" src="img/team/{{ member.pic }}.jpg" alt="{{ member.name }}">
-                            <h5 class="tc f3-ns f2 h2">{{ member.name }}</h5>
-                            <p class="tc ma0">{{ member.position }}</p>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="fl w-100 cf">
+                <h1 class="f-subheadline tc">Wembley</h1>
+                {% for member in site.people %}
+                    {% if member.branch contains "wembley" %}
+                        <div class="fl w-25-l w-50-m w-100">
+                            <div>
+                                <img class="ba bw2 db h5 w5 br-100 center" src="img/team/{{ member.pic }}.jpg" alt="{{ member.name }}">
+                                <h5 class="tc f4 ma0 h2">{{ member.name }}</h5>
+                                <p class="tc tracked ttu ma0">{{ member.position }}</p>
+                            </div>
                         </div>
-                    </div>
-                {% endif %}
-            {% endfor %}
-        </div>
-        <div class="fl w-100 cf">
-            <h1 class="tc">Carine</h1>
-            {% for member in site.people %}
-                {% if member.branch contains "carine" %}
-                    <div class="fl w-50-ns w-100 pa4">
-                        <div>
-                            <img class="db h4-ns w4-ns h5 w5 br-100 center" src="img/team/{{ member.pic }}.jpg" alt="{{ member.name }}">
-                            <h5 class="tc f3-ns f2 h2">{{ member.name }}</h5>
-                            <p class="tc ma0">{{ member.position }}</p>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="fl w-100 cf">
+                <h1 class="f-subheadline tc">Carine</h1>
+                {% for member in site.people %}
+                    {% if member.branch contains "carine" %}
+                        <div class="fl w-50-ns w-100">
+                            <div>
+                                <img class="ba bw2 db h5 w5 br-100 center" src="img/team/{{ member.pic }}.jpg" alt="{{ member.name }}">
+                                <h5 class="tc f4 ma0 h2">{{ member.name }}</h5>
+                                <p class="tc tracked ttu ma0">{{ member.position }}</p>
+                            </div>
                         </div>
-                    </div>
-                {% endif %}
-            {% endfor %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="f1 mt4 pa4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
         </div>
-        <div class="f1 mt4 pa4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-    </section>
+    </div>

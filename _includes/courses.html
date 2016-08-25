@@ -1,5 +1,5 @@
-<!-- Portfolio Grid Section -->
-  <section>
+<!-- Portfolio Grid div -->
+  <div>
     <div class="w-80-ns center bg-blue br4-ns">
         <h1 class="f-subheadline tc">Courses</h1>
         <p class="f1 tc">Lorem ipsum dolor sit amet consectetur.</p>
@@ -8,12 +8,12 @@
                 <div class="w-100 center pa4-ns">
                     <h1 class="w-100 f1 tc">{{ post.title }}</h1>
                     <h2 class="w-100 f2 tc">{{ post.subtitle }}</h2>
-                    <section class="mw5 mw7-ns center pa3 ph5-ns">
+                    <div class="mw5 mw7-ns center pa3 ph5-ns">
                         <img class="w-100" src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-                    </section>
+                    </div>
                     <div class="w-100 f4 pa2">{{ post.content }}</div>
                 </div>
             {% endif %}
         {% endfor %}
     </div>
-  </section>
+  </div>

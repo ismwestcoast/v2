@@ -1,17 +1,12 @@
 ---
 title: Jitterbugs
-subtitle: Early music for 2 year olds
+subtitle: Early music
 layout: default
 modal-id: 1
-date: 2014-07-13
 img: jitterbugs.jpg
 thumbnail: jitterbugs.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
 category: course
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
 ---
 A program providing children with the opportunity to be immersed in a musical world, incorporating singing original and known favourites, actions to songs, percussion, movement to music and musical craft relating to lesson topic.
 

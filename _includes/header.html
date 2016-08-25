@@ -1,14 +1,14 @@
   <nav class="dt w-100 border-box pa3 ph5-ns bg-blue">
       <a class="dtc v-mid mid-gray link w-25" href="/">
-	  <img src="/img/logos/ism.png" class="dib w4 br-100" alt="Site Name">
+	    <img src="/img/logos/ism.png" class="dib w4 br-100" alt="Site Name">
       </a>
       <div class="dtc v-mid w-75 tr">
 	      {% for post in site.posts %}
 		  {% if post.categories contains "form" %}
-		      <a class="link dim dark-gray fw9 f6 f3-ns dib mr3 mr4-ns" href="{{post.permalink}}">{{post.title}}</a>
+		      <a class="link dim dark-gray fw9 f3 f3-ns dib mr3 mr4-ns" href="{{post.permalink}}">{{post.title}}</a>
 		  {% endif %}
 		  {% if post.categories contains "info" %}
-		      <a class="link dim dark-gray fw9 f6 f3-ns dib mr3 mr4-ns" href="{{post.permalink}}">{{post.title}}</a>
+		      <a class="link dim dark-gray fw9 f3 f3-ns dib mr3 mr4-ns" href="{{post.permalink}}">{{post.title}}</a>
 		  {% endif %}
 	      {% endfor %}
       </div>

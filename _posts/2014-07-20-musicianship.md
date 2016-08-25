@@ -1,12 +1,13 @@
 ---
-title: Private Tuition
-subtitle: Success in music
+title: Musicianship
+subtitle: Overcoming limits
 layout: default
-date: 2014-07-18
-img: private.jpg
-thumbnail: private.jpg
+modal-id: 5
+img: musicianship.jpg
+thumbnail: musicianship.jpg
 alt: image-alt
 category: course
+
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis modi voluptate quisquam est, quo animi. Nihil, explicabo praesentium ea eius, vitae, illo numquam ducimus quasi reiciendis distinctio ratione dolore voluptate.
