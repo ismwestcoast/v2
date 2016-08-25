@@ -1,51 +1,21 @@
-<!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-	<div class="container">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header page-scroll">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		    <span class="sr-only">Toggle navigation</span>
-		    <span class="icon-bar"></span>
-		    <span class="icon-bar"></span>
-		    <span class="icon-bar"></span>
-		</button>
-		<a class="navbar-brand page-scroll" href="/">{{site.title}}</a>
-	    </div>
+  <nav class="dt w-100 border-box pa3 ph5-ns bg-blue">
+      <a class="dtc v-mid mid-gray link w-25" href="/">
+	  <img src="/img/logos/ism.png" class="dib w4 br-100" alt="Site Name">
+      </a>
+      <div class="dtc v-mid w-75 tr">
+	      {% for post in site.posts %}
+		  {% if post.categories contains "form" %}
+		      <a class="link dim dark-gray fw9 f6 f3-ns dib mr3 mr4-ns" href="{{post.permalink}}">{{post.title}}</a>
+		  {% endif %}
+		  {% if post.categories contains "info" %}
+		      <a class="link dim dark-gray fw9 f6 f3-ns dib mr3 mr4-ns" href="{{post.permalink}}">{{post.title}}</a>
+		  {% endif %}
+	      {% endfor %}
+      </div>
+  </nav>
 
-	    <!-- Collect the nav links, forms, and other content for toggling -->
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		<ul class="nav navbar-nav navbar-right">
-		    {% for post in site.posts %}
-			{% if post.categories contains "form" %}
-				<li>
-					<a class="page-scroll" href="{{post.permalink}}">{{post.title}}</a>
-				</li>
-			{% endif %}
-			{% if post.categories contains "info" %}
-				<li>
-					<a class="page-scroll" href="{{post.permalink}}">{{post.title}}</a>
-				</li>
-			{% endif %}
-		    {% endfor %}
-		</ul>
-	    </div>
-	    <!-- /.navbar-collapse -->
-	</div>
-	<!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-	<div class="container">
-	    <div class="intro-text">
-		<div class="intro-lead-in">ISM Westcoast</div>
-		<div class="intro-heading">Music Education for Children of All Ages</div>
-		<a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
-	    </div>
-	</div>
-    </header>
-<!--
-	{% for page in site.pages %}
-	  {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
-	{% endfor %}
- -->
+  <header class="w-100 h5">
+        <h1 class="tc f2 f-subheadline-ns mb4">ISM Westcoast</h1>
+        <div class="f1 fw9 tc">Music Education for Children of All Ages</div>
+    </div>
+  </header>

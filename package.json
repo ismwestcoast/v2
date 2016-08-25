@@ -1,0 +1,23 @@
+{
+  "name": "ism",
+  "version": "1.0.0",
+  "description": "Agency Jekyll theme ====================",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismwestcoast/ismwestcoast.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismwestcoast/ismwestcoast.github.io/issues"
+  },
+  "homepage": "https://github.com/ismwestcoast/ismwestcoast.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1"
+  }
+}

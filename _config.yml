@@ -12,35 +12,38 @@ people:
 - name: Lynette Telfer
   pic: 1
   position: Director
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  branch: all
 
-- name: Larry Parker
+- name: Stephanie Wigunadharma
   pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  position: Music Teacher
+  branch: wembley
 
-- name: Diana Petersen
+- name: Ricky Lin
   pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  position: Music Teacher
+  branch: wembley
+
+- name: Georgia Harris
+  pic: 3
+  position: Music Teacher
+  branch: wembley
+
+- name: Hannah
+  pic: 3
+  position: Private Piano Teacher
+  branch: wembley
+
+- name: Emily
+  pic: 3
+  position: Music Teacher
+  branch: carine
+
+- name: Holly
+  pic: 3
+  position: Music Teacher
+  branch: carine
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
