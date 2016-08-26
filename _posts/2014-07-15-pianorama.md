@@ -7,6 +7,8 @@ img: pianorama.jpg
 thumbnail: pianorama.jpg
 alt: image-alt
 category: course
+bgcolour: yellow
+fgcolour: black
 ---
 
 Pianorama is a programme offered by the International School of Music.  It integrates the learning of the piano/keyboard simultaneously with musicianship skills.

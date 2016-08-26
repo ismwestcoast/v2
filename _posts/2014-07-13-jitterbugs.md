@@ -7,6 +7,8 @@ img: jitterbugs.jpg
 thumbnail: jitterbugs.jpg
 alt: image-alt
 category: course
+bgcolour: yellow
+fgcolour: black
 ---
 A program providing children with the opportunity to be immersed in a musical world, incorporating singing original and known favourites, actions to songs, percussion, movement to music and musical craft relating to lesson topic.
 
