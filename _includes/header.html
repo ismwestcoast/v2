@@ -1,21 +1,5 @@
-  <nav class="bb dt w-100 border-box pa3 ph5-ns" style="background-color: #7FFF00">
-      <a class="dtc v-mid mid-gray link w-25" href="/">
-	    <img src="/img/logos/ism.png" class="dib w4 br-100" alt="Site Name">
-      </a>
-      <div class="dtc v-mid w-75 tr">
-	      {% for post in site.posts %}
-		  {% if post.categories contains "form" %}
-		      <a class="link dim dark-gray fw9 f3 f3-ns dib mr3 mr4-ns" href="{{post.permalink}}">{{post.title}}</a>
-		  {% endif %}
-		  {% if post.categories contains "info" %}
-		      <a class="link dim dark-gray fw9 f3 f3-ns dib mr3 mr4-ns" href="{{post.permalink}}">{{post.title}}</a>
-		  {% endif %}
-	      {% endfor %}
-      </div>
-  </nav>
-
   <header class="w-100 h5">
-        <h1 class="tc f1 f-subheadline-ns mb4">ISM Westcoast</h1>
-        <div class="f2 fw9 tc">Music Education for Children of All Ages</div>
+        <h1 class="tc f1 f-subheadline-ns mb4">{{ site.title }}</h1>
+        <div class="f2 fw9 tc">{{ site.description }}</div>
     </div>
   </header>

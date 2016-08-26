@@ -15,6 +15,7 @@ permalink: /info/enrolmentdates.html
 
 ## Beeboppers
 
+{:.w-80-l.w-100.dt.center}
 |Day of the week| Timeslot      | Places Remaining|
 |:-------------:|:-------------:|:---------------:|
 | Monday        | 9.15 - 9.45am | 4               |
@@ -24,6 +25,7 @@ permalink: /info/enrolmentdates.html
 
 ## Jitterbugs
 
+{:.w-80-l.w-100.dt.center}
 |Day of the week| Timeslot      | Places Remaining|
 |:-------------:|:-------------:|:---------------:|
 | Monday        | 9.15 - 9.45am | 4               |
@@ -33,6 +35,7 @@ permalink: /info/enrolmentdates.html
 
 ## Pianorama
 
+{:.w-80-l.w-100.dt.center}
 |Day of the week| Timeslot      | Places Remaining|
 |:-------------:|:-------------:|:---------------:|
 | Monday        | 9.15 - 9.45am | 4               |

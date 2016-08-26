@@ -1,0 +1,16 @@
+<nav class="bb dt w-100 border-box pa3 ph5-ns" style="background-color: #7FFF00">
+    <a class="dtc v-mid mid-gray link w-25" href="/">
+    <img src="/img/logos/ism.png" class="dib w4 br-100" alt="Site Name">
+    </a>
+    <div class="dtc v-mid w-75 tr">
+        <a class="link dim dark-gray fw9 f3 f3-ns dib mr3 mr4-ns" href="/courses/index.html">Courses</a>
+        {% for post in site.posts %}
+        {% if post.categories contains "form" %}
+            <a class="link dim dark-gray fw9 f3 f3-ns dib mr3 mr4-ns" href="{{post.permalink}}">{{post.title}}</a>
+        {% endif %}
+        {% if post.categories contains "info" %}
+            <a class="link dim dark-gray fw9 f3 f3-ns dib mr3 mr4-ns" href="{{post.permalink}}">{{post.title}}</a>
+        {% endif %}
+        {% endfor %}
+    </div>
+</nav>

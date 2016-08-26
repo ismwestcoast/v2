@@ -3,16 +3,14 @@
 
   {% include head.html %}
     <body>
-        {% include navshrink.html %}
-        <div class="tc center w-100">
-                <div>
-                        <div>
-                                {{ content }}
-                        </div>
-                        <div>
-                                {% include enrolmentform.html %}
-                        </div>
-                </div>
+        {% include navbar.html %}
+        <div class="tc w-100 pa2">
+            <div class="w-80-ns center">
+                    {{ content }}
+            </div>
+            <div>
+                    {% include enrolmentform.html %}
+            </div>
         </div>
     </body>
 </html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+    <body>
+        {% include navbar.html %}
+        {% for post in site.posts reversed %}
+            {% if post.categories contains "course" %}
+                <div class="mv4-ns pv4 ba-ns bt b--black bw1-ns br4-ns w-80-ns w-100 center {{ post.fgcolour }} bg-{{ post.bgcolour }}">
+                    <div class="w-100 center pa4-ns">
+                        <h1 class="w-100 f1 tc">{{ post.title }}</h1>
+                        <h2 class="w-100 f2 tc">{{ post.subtitle }}</h2>
+                        <div class="mw5-ns w-100 mw7-ns center pa3 ph0 ph5-ns">
+                            <img class="ba br4-ns w-100" src="img/{{ post.thumbnail }}" alt="">
+                        </div>
+                        <div class="w-100 f4 pa2">{{ post.content }}</div>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </body>
+    {% include footer.html %}
+</html>
