@@ -5,12 +5,13 @@
     <body>
         {% include navbar.html %}
         <div class="tc w-100 pa2">
-            <div class="w-80-ns center">
+            <div class="w-80-ns center bg-light-blue br4 ba mv4-ns">
                     {{ content }}
             </div>
-            <div>
+              <div class="w-80-ns center bg-purple br4 ba mv4-ns">
                     {% include enrolmentform.html %}
             </div>
         </div>
     </body>
+    {% include footer.html %}
 </html>

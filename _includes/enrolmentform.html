@@ -3,25 +3,33 @@
 <form action="https://formspree.io/jtnguyen236@gmail.com" method="POST">
   <fieldset class="form-group">
     <h2>Student Information</h2>
-    <label for="student_first_name">Student's First Name</label>
-    <input type="student_first_name" class="form-control" id="student_first_name" placeholder="Enter student's first name">
-    <label for="student_surname">Student's Surname</label>
-    <input type="student_surname" class="form-control" id="student_surname" placeholder="Enter student's surname">
-    <label>
-      Gender
-      <div class="radio">
+      <div class="w-100">
+        <div class="w-50">
+          <label for="student_first_name"><p class="w-100">Student's First Name</p></label>
+          <input type="student_first_name" class="form-control" id="student_first_name" placeholder="Enter student's first name">
+        </div>
+        <div class="w-50">
+          <label for="student_surname"><p class="w-100">Student's Surname</p></label>
+          <input type="student_surname" class="form-control" id="student_surname" placeholder="Enter student's surname">
+        </div>
+      </div>
+      <div class="w-100">
         <label>
-          <input type="radio" name="student_gender" id="male" value="male" checked>
-          Male
+          <h3>Gender</h3>
+          <div class="radio">
+            <label>
+              <input type="radio" name="student_gender" id="male" value="male" checked>
+              Male
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="student_gender" id="female" value="female">
+              Female
+            </label>
+          </div>
         </label>
       </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="student_gender" id="female" value="female">
-          Female
-        </label>
-      </div>
-    </label>
   </fieldset>
   <fieldset class="form-group">
     <h2>Parent Information</h2>

@@ -2,13 +2,13 @@
     <h2 class="tc f-subheadline">Our Amazing Team</h2>
     <h3 class="tc">Lorem ipsum dolor sit amet consectetur.</h3>
     <div class="fl w-100 cf">
-        <h1 class="f-subheadline tc">All Branches</h1>
+        <h1 class="f1 tc mb0">Westcoast Branches</h1>
         {% for member in site.people %}
             {% if member.branch contains "all" %}
                 <div class="fl w-100 pa4 w5">
-                    <div class="h5 w5 w-100">
-                        <img class="ba db h5 w5 br-100 center" src="img/team/{{ member.pic }}.jpg" alt="{{ member.name }}">
-                        <h5 class="tc f4 ma0 h2">{{ member.name }}</h5>
+                    <div class="h4 w4 w-100">
+                        <img class="ba db h4 w4 br-100 center" src="img/team/{{ member.pic }}.jpg" alt="{{ member.name }}">
+                        <h5 class="tc f4 ma0 h2 pt2">{{ member.name }}</h5>
                         <p class="tc tracked ttu ma0">{{ member.position }}</p>
                     </div>
                 </div>
@@ -16,13 +16,13 @@
         {% endfor %}
     </div>
     <div class="fl w-100 cf">
-        <h1 class="f-subheadline tc">Wembley</h1>
+        <h1 class="f1 pt4 tc">Wembley</h1>
         {% for member in site.people %}
             {% if member.branch contains "wembley" %}
                 <div class="fl w-50-m w-25-l w-100">
                     <div>
-                        <img class="ba db h5 w5 br-100 center" src="img/team/{{ member.pic }}.jpg" alt="{{ member.name }}">
-                        <h5 class="tc f4 ma0 h2">{{ member.name }}</h5>
+                        <img class="ba db h4 w4 br-100 center" src="img/team/{{ member.pic }}.jpg" alt="{{ member.name }}">
+                        <h5 class="tc f4 ma0 h2 pt2">{{ member.name }}</h5>
                         <p class="tc tracked ttu ma0 pb4">{{ member.position }}</p>
                     </div>
                 </div>
@@ -30,13 +30,13 @@
         {% endfor %}
     </div>
     <div class="fl w-100 cf">
-        <h1 class="f-subheadline tc">Carine</h1>
+        <h1 class="f1 tc">Carine Glades</h1>
         {% for member in site.people %}
             {% if member.branch contains "carine" %}
                 <div class="fl w-50-ns w-100">
                     <div>
-                        <img class="ba db h5 w5 br-100 center" src="img/team/{{ member.pic }}.jpg" alt="{{ member.name }}">
-                        <h5 class="tc f4 ma0 h2">{{ member.name }}</h5>
+                        <img class="ba db h4 w4 br-100 center" src="img/team/{{ member.pic }}.jpg" alt="{{ member.name }}">
+                        <h5 class="tc f4 ma0 h2 pt2">{{ member.name }}</h5>
                         <p class="tc tracked ttu ma0 pb4">{{ member.position }}</p>
                     </div>
                 </div>
