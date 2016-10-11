@@ -9,7 +9,7 @@ category: item
 ---
 
 ## Magnet Boards
-![Magnet Board](/ismagency/img/store/magnetboards.jpg)
+![Magnet Board](/v2/img/store/magnetboards.jpg)
 
 Ideal for all students to practice note reading.
 
@@ -17,7 +17,7 @@ Colours may vary from picture
 
 ## Flash Cards
 
-![Flashcards](/ismagency/img/store/flashcards.jpg)
+![Flashcards](/v2/img/store/flashcards.jpg)
 
 For students on Junior Book 1
 
@@ -25,7 +25,7 @@ For students on Junior Book 1
 
 ## Music Bags
 
-![Music Bag](/ismagency/img/store/musicbag.jpg)
+![Music Bag](/v2/img/store/musicbag.jpg)
 
 A handy bag to carry and protect your music books.
 
