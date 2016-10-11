@@ -1,5 +1,4 @@
-url: http://ismwestcoast.com.au/ismagency/
-# baseurl: localhost:4000/
+baseurl: /ismagency
 
 # Site settings
 title: ISM Westcoast
